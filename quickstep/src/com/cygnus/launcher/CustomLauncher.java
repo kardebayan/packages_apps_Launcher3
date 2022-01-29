@@ -1,6 +1,4 @@
 /*
- * Copyright (C) 2020 Paranoid Android
- *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
@@ -14,10 +12,10 @@
  * limitations under the License.
  */
 
-package co.aospa.launcher;
+package com.cygnus.launcher;
 
-import com.android.launcher3.Launcher;
+import com.android.launcher3.uioverrides.QuickstepLauncher;
 
-public class ParanoidLauncher extends Launcher {
+public class CustomLauncher extends QuickstepLauncher {
 
 }

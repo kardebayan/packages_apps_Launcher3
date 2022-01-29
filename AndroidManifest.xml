@@ -43,7 +43,7 @@
         attributes and intent filters the same
         -->
         <activity
-            android:name="co.aospa.launcher.ParanoidLauncher"
+            android:name="com.cygnus.launcher.CustomLauncher"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"

@@ -1,5 +1,4 @@
 /*
- * Copyright (C) 2020 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,17 +12,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.cygnus.launcher;
 
-package co.aospa.launcher;
+import com.android.launcher3.Launcher;
 
-import com.android.launcher3.uioverrides.QuickstepLauncher;
-import com.android.systemui.plugins.shared.LauncherOverlayManager;
-
-public class ParanoidLauncher extends QuickstepLauncher {
-
-    @Override
-    protected LauncherOverlayManager getDefaultOverlay() {
-        return new OverlayCallbackImpl(this);
-    }
+public class CustomLauncher extends Launcher {
 
 }
